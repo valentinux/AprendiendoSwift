@@ -10,10 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            
+            Text("**Este es un texto en negrita**. *Este en cursiva*. [Link a google](https://www.google.es/)")
+                //.fontWeight(.bold)
+                // .font(.system(size: //25,design:
+                        //.rounded))
+                .foregroundColor(.purple)
+                .multilineTextAlignment(.center)
         }
         .padding()
     }
